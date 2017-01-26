@@ -9,7 +9,10 @@ module.exports = {
       packages: [
         { name: 'ember-fetch', target: '1.3.0' },
         { name: 'ember-cli-mirage', target: '0.2.4' },
-        { name: 'ember-lodash-shim', target: '1.1.0' }
+        { name: 'ember-lodash-shim', target: '^1.0.0' },
+        { name: 'ember-symbol-observable', target: '0.1.2'},
+        { name: 'redux', target: '3.6.0'},
+        { name: 'redux-thunk', target: '2.2.0'}
       ]
     }).then(function() {
       return this.addPackagesToProject([
