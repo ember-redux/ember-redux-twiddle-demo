@@ -16,6 +16,8 @@ module.exports = {
       return this.addPackagesToProject([
         // Installing ember-redux as a package to avoid running its blueprint
         // we want to use the demo blueprint instead
+        { name: 'redux', target: '3.6.0' },
+        { name: 'redux-thunk', target: '2.2.0' },
         { name: 'ember-redux', target: '2.0.0-beta.7' }
       ])
     }.bind(this))
