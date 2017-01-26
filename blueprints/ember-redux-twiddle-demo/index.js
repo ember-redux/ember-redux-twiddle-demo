@@ -18,7 +18,7 @@ module.exports = {
         // we want to use the demo blueprint instead
         { name: 'redux', target: '3.6.0' },
         { name: 'redux-thunk', target: '2.2.0' },
-        { name: 'ember-redux', target: '2.0.0-beta.7' }
+        { name: 'ember-redux', target: '2.0.0' }
       ])
     }.bind(this))
   }
