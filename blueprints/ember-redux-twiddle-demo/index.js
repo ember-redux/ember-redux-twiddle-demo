@@ -10,6 +10,7 @@ module.exports = {
         { name: 'ember-fetch', target: '3.2.9' },
         { name: 'ember-cli-mirage', target: '0.3.4' },
         { name: 'ember-redux-shim', target: '2.4.0' },
+        { name: 'ember-reselect-shim', target: '2.0.0' },
         { name: 'ember-redux-thunk-shim', target: '2.3.0' }
       ]
     }).then(function() {
@@ -18,7 +19,8 @@ module.exports = {
         // we want to use the demo blueprint instead
         { name: 'redux', target: '3.7.2' },
         { name: 'redux-thunk', target: '2.2.0' },
-        { name: 'ember-redux', target: '3.0.0-beta.1' }
+        { name: 'ember-redux', target: '3.0.0-beta.1' },
+        { name: 'reselect', target: '3.0.1' }
       ])
     }.bind(this))
   }
